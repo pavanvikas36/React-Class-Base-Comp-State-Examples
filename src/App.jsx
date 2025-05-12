@@ -7,14 +7,13 @@ import Home from "./Components/Home/Home"
 import RandomColor from "./Components/Random Color/RandomColor"
 import RandomQuote from "./Components/Random Quote/RandomQuote"
 import DarkLight from "./Components/Dark & Light/DarkLight"
-import SignupLogin from "./Components/Signup & Login/SignupLogin"
+import SignupLogin from "./Components/Signup/SignupLogin"
 
 class App extends React.Component{
   render(){
     return (
       <div>
         <Navbar />
-
         <Routes>
           <Route path="/home" element={<Home/>}></Route>
           <Route path="/count" element={<Count/>}/>
